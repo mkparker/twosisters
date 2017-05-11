@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:700');
+
+.two_sisters {
+  background-color: #ffc233;
+  padding-top: 100px;
+  min-height: 1000px;
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 5em;
+  color: #452830;
+}
