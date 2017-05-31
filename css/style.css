@@ -1,6 +1,251 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:700');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+/*=====Universal=====*/
+.container-fluid {
+  margin: 0;
+  background-color: #452830;
+}
+
+.text-shadow {
+
+}
+/*=====End Universal======*/
+
+/*=====Navbar=====*/
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: rgba(17, 17, 17, .5);
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #ffc233;
+  background-color: rgba(17, 17, 17, .2);
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FCFCFC;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+nav.navbar {
+  position: absolute;
+  top: 100;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.navbar-brand>img {
+  margin-top: -7px;
+  margin-left: 10px;
+}
+/*=====End Navbar=====*/
+
+/*=====Carousel=====*/
+.wrap {
+  min-height: 100vh;
+}
+
+.carousel {
+  margin-bottom: 60px;
+}
+
+.carousel-caption {
+  z-index: 10;
+  padding: 140px;
+}
+
+.carousel-inner .item {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.main_img1 {
+  background-image: url('../img/IMG_9853.JPG');
+}
+
+.main_logo {
+  max-height: 300px;
+}
+
+.main_img2 {
+  background-image: url('../img/IMG_9850.JPG');
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #F8512F;
+  border-color: transparent;
+}
+
+.btn-danger:hover {
+  background-color: #D34326;
+  border-color: transparent;
+}
+
+.p-text {
+  color: #F7F7F7;
+  font-size: 16px;
+}
+
+.main_img3 {
+  background-image: url('../img/IMG_9849.JPG');
+}
+
+.main_img4 {
+  background-image: url('../img/IMG_9848.JPG');
+}
+
+
+/*=====End Carousel=====*/
+
+/*=====Our Story=====*/
+#our_story, #hours, #menu{
+  min-height: 600px;
+  background-color: #452830;
+}
+
+.our_story_row {
+  margin-top: 30px;
+}
+
+.our_story {
+  font-family: 'lobster', serif;
+  color: #f47b2c;
+  font-size: 6em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
 
 .two_sisters {
+  font-family: 'raleway', Sans-Serif;
+  font-weight: 700;
+  font-size: 2em;
+  margin-top: 0;
+  color: #fff;
+}
+
+/*.story_year {
+  font-weight: 700;
+  font-size: 9em;
+  z-index: -10000;
+  position: absolute;
+  color: rgba(149, 147, 147, .2);
+  font-family: 'Playfair Display', serif;
+  margin-top: 0;
+}*/
+
+#our_story p {
+  font-family: 'Raleway', Sans-Serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+
+/*======End Our Story======*/
+
+/*=====Hours=====*/
+#hours {
+  background-image: url('../img/IMG_9848.JPG');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.center {
+  background-color: rgba(20, 20, 20, .6);
+  margin-top: 145px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hours-of-ops {
+  font-family: 'Lobster', cursive;
+  font-size: 5em;
+  color: #f47b2c;
+  text-shadow: 1px, 1px, 5px #0a0a0a;
+}
+
+.hours {
+  color: #fff;
+  font-family: 'Raleway', Sans-Serif;
+  font-weight: 300;
+  font-size: 2em;
+  text-shadow: 1px, 1px, 5px #0a0a0a;
+}
+/*=====End Hours=====*/
+
+/*=====Contact=====*/
+#contact {
+  background-color: #452830;
+  padding-left: 100px;
+}
+
+.contact-us {
+  color: #fff;
+  font-family: 'Raleway', Sans-Serif;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.contact-info {
+  color: #fff;
+  font-family: 'Raleway', Sans-Serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.address {
+  color: #fff;
+  font-family: 'Raleway', Sans-Serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+h6 > span {
+  font-weight: 700;
+}
+
+#contact {
+  padding-left: justify;
+  padding-right: 80px;
+}
+/*=====End Contact=====*/
+
+/*==== Footer===*/
+#socialMedia {
+  background-color: 452830;
+  height: 100px;
+  color:#fff;
+}
+
+#socialMedia a {
+  color:#fff;
+}
+
+.fa:hover {
+  color:#f47b2c;
+}
+
+.socialMedia {
+  color:#fff;
+}
+
+/*===End Footer===*/
+
+
+/*.two_sisters {
   background-color: #ffc233;
   padding-top: 100px;
   min-height: 1000px;
@@ -10,4 +255,4 @@ h1 {
   font-family: 'Rubik', sans-serif;
   font-size: 5em;
   color: #452830;
-}
+}*/
