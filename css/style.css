@@ -50,6 +50,10 @@ nav.navbar {
   margin-top: -7px;
   margin-left: 10px;
 }
+
+#navbar-collapse {
+  float: right;
+}
 /*=====End Navbar=====*/
 
 /*=====Carousel=====*/
@@ -113,7 +117,7 @@ nav.navbar {
 /*=====End Carousel=====*/
 
 /*=====Our Story=====*/
-#our_story, #hours, #menu{
+#our_story, #hours {
   min-height: 600px;
   background-color: #452830;
 }
@@ -242,6 +246,11 @@ h6 > span {
   color:#fff;
 }
 
+#copyright {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: .5em;
+}
 /*===End Footer===*/
 
 
