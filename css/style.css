@@ -65,10 +65,10 @@ nav.navbar {
   margin-bottom: 60px;
 }
 
-.carousel-caption {
+/*.carousel-caption {
   z-index: 10;
   padding: 140px;
-}
+}*/
 
 .carousel-inner .item {
   width: 100%;
@@ -81,28 +81,8 @@ nav.navbar {
   background-image: url('../img/IMG_9853.JPG');
 }
 
-.main_logo {
-  max-height: 300px;
-}
-
 .main_img2 {
   background-image: url('../img/IMG_9850.JPG');
-}
-
-.btn-danger {
-  color: #fff;
-  background-color: #F8512F;
-  border-color: transparent;
-}
-
-.btn-danger:hover {
-  background-color: #D34326;
-  border-color: transparent;
-}
-
-.p-text {
-  color: #F7F7F7;
-  font-size: 16px;
 }
 
 .main_img3 {
@@ -140,16 +120,6 @@ nav.navbar {
   margin-top: 0;
   color: #fff;
 }
-
-/*.story_year {
-  font-weight: 700;
-  font-size: 9em;
-  z-index: -10000;
-  position: absolute;
-  color: rgba(149, 147, 147, .2);
-  font-family: 'Playfair Display', serif;
-  margin-top: 0;
-}*/
 
 #our_story p {
   font-family: 'Raleway', Sans-Serif;
@@ -252,16 +222,3 @@ h6 > span {
   font-size: .5em;
 }
 /*===End Footer===*/
-
-
-/*.two_sisters {
-  background-color: #ffc233;
-  padding-top: 100px;
-  min-height: 1000px;
-}
-
-h1 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 5em;
-  color: #452830;
-}*/
