@@ -162,26 +162,32 @@ nav.navbar {
 
 /*=====Contact=====*/
 #contact {
-  background-color: #452830;
+  background-color: #fff;
+  /*background-color: #452830;*/
   padding-left: 100px;
 }
 
 .contact-us {
-  color: #fff;
+  color:#f47b2c;
+  /*color: #fff;*/
   font-family: 'Raleway', Sans-Serif;
   font-weight: 700;
   font-size: 3em;
 }
 
 .contact-info {
-  color: #fff;
+  color: #000;
+  /*color:#f47b2c;*/
+  /*color: fff;*/
   font-family: 'Raleway', Sans-Serif;
   font-weight: 300;
   font-size: 1em;
 }
 
 .address {
-  color: #fff;
+  color: #000;
+  /*color:#f47b2c;*/
+  /*color: fff;*/
   font-family: 'Raleway', Sans-Serif;
   font-weight: 300;
   font-size: 1em;
@@ -199,7 +205,8 @@ h6 > span {
 
 /*==== Footer===*/
 #socialMedia {
-  background-color: 452830;
+  padding-top: 20px;
+  background-color: #452830;
   height: 100px;
   color:#fff;
 }
